@@ -1,0 +1,17 @@
+diff -u PyChart-1_39-BAD/doc/doc.py PyChart-1_39/doc/doc.py
+--- PyChart-1_39-BAD/doc/doc.py	2006-12-23 00:45:52.000000000 -0900
++++ PyChart-1_39/doc/doc.py	2006-12-23 00:46:36.000000000 -0900
+@@ -1,11 +1,11 @@
+ from pychart import *
+ import pychart.doc_support
+-import optik
++import optparse
+ import string
+ import sys
+ import re
+ 
+-parser = optik.OptionParser()
++parser = optparse.OptionParser()
+ parser.add_option("-S", "--ps", action="store_true", default=None)
+ parser.add_option("-D", "--pdf", action="store_true", default=None)
+ parser.add_option("-X", "--pychart-dir", action="store", default=None)

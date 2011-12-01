@@ -1,0 +1,9 @@
+--- PyChart/doc/Makefile.BAD	2006-01-09 16:16:34.000000000 -0600
++++ PyChart/doc/Makefile	2006-01-09 16:17:00.000000000 -0600
+@@ -1,5 +1,5 @@
+ PYCHART_DIR=..
+-PYTHON_DOC_DIR=$(HOME)/Python-2.4.2/Doc
++PYTHON_DOC_DIR=$(PYCHART_DIR)/Doc
+ all: pychart examples
+ 
+ pychart: pychart.tex
